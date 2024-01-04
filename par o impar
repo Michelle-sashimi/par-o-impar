@@ -1,0 +1,8 @@
+let numero; 
+numero = prompt("Dar un numero para determinar si es par o impar")
+if (numero % 2 == 0) {
+    document.write("El numero proporcionado" + numero + "es par");
+
+} else {
+    document.write("El numero proporcionado" + numero + " es impar")
+}
